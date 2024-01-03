@@ -1,0 +1,25 @@
+comando node js via terminal
+mkdir code-club-projects   //cria uma pasta
+ls  	 //lista que tem 
+cd  nome pasta    //para entrar na pasta
+cd ..		 //volta pra tras ou seja volta para pasta de fora
+
+npm init       //iniciando o primeiro projeto node depois pergunta qual o nome do projeto, versão, descrição etc
+
+rm -rf (nome do arquivo)package.json   //deleta o arquivo
+
+pwd   //verifica em qual pasta vc esta trabalhando
+
+
+--------------------------Instalando express pelo terminal----------------
+npm install express  ou npm i express
+
+para rodar o servidor
+node index.js    // nome do arquivo
+ctlr + c // para servidor
+
+npm i nodemon -D ou npm install nodemon -D // uma dependencia para ajudar desligar o servidor express
+
+npm run dev    //para startar o servidor pois foi configura no script package.json
+
+npm install uuid ou npm i uuid   //para funcionar id automático
